@@ -1,0 +1,17 @@
+Git tag creation:
+
+Let us create a shell variable 
+$tag="some_tag"
+
+For Local tag:
+git tag $tag
+
+To push the local tag to remote:
+git push origin $tag
+
+
+Delete a local tag
+git tag -d $tag
+
+Updated the deleted local tag to remote:
+git push origin :refs/tags/COM-150488-rc9
