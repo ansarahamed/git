@@ -1,0 +1,14 @@
+When you want to revert a commit
+
+git revert <commit-id>
+#This would generate a commit id for every commit you are reverting
+
+
+However the other option is to use --no-commit
+
+git revert --no-commit <Older commit id> ...... (separated by spaces)
+
+This applies the change in the local
+and the user has to do
+i) stage the files
+ii) commit it.
