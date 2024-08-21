@@ -1,0 +1,9 @@
+To amend a commit message which has not been pushed to repository
+
+git commit --amend
+
+
+To amend  a commit message which has been pushed to repository but the recent commit use
+ 
+git commit --amend
+git push -f origin
