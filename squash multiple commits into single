@@ -1,0 +1,16 @@
+git rebase -i HEAD~2
+
+
+pick f6cb122a9 COM-169664 added priority and adjusted trends for venmo
+pick 24b693fcd COM-170974 added priority
+
+# Rebase 1dde3c062..24b693fcd onto 1dde3c062 (2 commands)
+#
+# Commands:
+# p, pick <commit> = use commit
+# r, reword <commit> = use commit, but edit the commit message
+# e, edit <commit> = use commit, but stop for amending
+# s, squash <commit> = use commit, but meld into previous commit
+# f, fixup <commit> = like "squash", but discard this commit's log message
+# x, exec <command> = run command (the rest of the line) using shell
+# b, break = sto
