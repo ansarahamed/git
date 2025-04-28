@@ -14,3 +14,7 @@ pick 24b693fcd COM-170974 added priority
 # f, fixup <commit> = like "squash", but discard this commit's log message
 # x, exec <command> = run command (the rest of the line) using shell
 # b, break = sto
+
+
+git rebase --continue
+//When you see no branch rebasing
